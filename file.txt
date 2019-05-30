@@ -1,0 +1,6653 @@
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{v=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{0=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{v=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{0=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=1, v=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{0=20, 1=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=1, v=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{0=20, 1=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[1]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+print(100 + read(v))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[122, 120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{a=0, v=10}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{a=0, v=10}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{a=0, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{a=0, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[3, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[1]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+print(100 + read(v))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[122, 120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{a=0, v=10}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{a=0, v=10}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{a=0, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{a=0, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+print(read(a))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+v=10
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+
+Symbol Table: 
+
+{a=4, v=10}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+new(v , 20)
+
+Symbol Table: 
+
+{a=4, v=10}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+
+Symbol Table: 
+
+{a=4, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30, 5=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(100 + read(v)) ; print(100 + read(a)))
+new(a , 22)
+
+Symbol Table: 
+
+{a=4, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30, 5=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(100 + read(v)) ; print(100 + read(a)))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+print(100 + read(a))
+print(100 + read(v))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+print(100 + read(a))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{a=6, v=10}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{a=6, v=10}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{a=6, v=7}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22, 7=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{a=6, v=7}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22, 7=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=8, v=7}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{7=20, 8=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=8, v=7}
+Out: 
+
+[7, 122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{7=20, 8=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))))
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{a=0, v=10}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{a=0, v=10}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{a=0, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{a=0, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+print(read(a))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(v=10 ; (new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))))
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+v=10
+
+Symbol Table: 
+
+{a=4, v=3}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{3=20, 4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+
+Symbol Table: 
+
+{a=4, v=10}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+new(v , 20)
+
+Symbol Table: 
+
+{a=4, v=10}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+
+Symbol Table: 
+
+{a=4, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30, 5=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(100 + read(v)) ; print(100 + read(a)))
+new(a , 22)
+
+Symbol Table: 
+
+{a=4, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{4=30, 5=20}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+(print(100 + read(v)) ; print(100 + read(a)))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+print(100 + read(a))
+print(100 + read(v))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+print(100 + read(a))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(v=10 ; (new(v , 20) ; (new(a , 22) ; print(v))))
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{a=6, v=5}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{5=20, 6=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{a=6, v=10}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{a=6, v=10}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{a=6, v=7}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22, 7=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{a=6, v=7}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{6=22, 7=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=8, v=7}
+Out: 
+
+[122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{7=20, 8=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=8, v=7}
+Out: 
+
+[7, 122, 120, 30, 4, 30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{7=20, 8=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[1]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+print(100 + read(v))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[122, 120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; print(v)))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; print(v))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[1]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (print(100 + read(v)) ; print(100 + read(a))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(print(100 + read(v)) ; print(100 + read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+print(100 + read(v))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+print(100 + read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[122, 120]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a))))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; print(read(a)))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; print(read(a))))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; print(read(a)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+v=10
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(v , 20) ; (new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))))
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+new(v , 20)
+
+Symbol Table: 
+
+{v=10}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(new(a , 22) ; (wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0))))
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+new(a , 22)
+
+Symbol Table: 
+
+{v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(wH(a , 30) ; (print(a) ; (print(read(a)) ; a=0)))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+wH(a , 30)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=22}
+ExeStack: 
+
+(print(a) ; (print(read(a)) ; a=0))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+print(a)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+(print(read(a)) ; a=0)
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+print(read(a))
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+a=0
+
+Symbol Table: 
+
+{a=2, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20, 2=30}
+ExeStack: 
+
+
+Symbol Table: 
+
+{a=0, v=1}
+Out: 
+
+[30, 2]
+File Table: 
+
+{}
+Heap: 
+
+{1=20}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(print(v) ; (openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1)))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(print(v) ; (openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1)))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1))
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=4}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_f=0, v=4}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_f=0, v=4}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(while (v - 4) (print(v) ; v=v - 1) ; print(v))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{v=5}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+print(v)
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{v=4}
+Out: 
+
+[4, 5, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(print(v) ; (openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1)))
+v=6
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(print(v) ; (openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1)))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1))
+print(v)
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+(openFile(filename='file.txt', varname'var_f') ; while (v - 4) (print(v) ; v=v - 1))
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{v=6}
+Out: 
+
+[6]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{var_f=0, v=6}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+(print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+print(v)
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+v=v - 1
+
+Symbol Table: 
+
+{var_f=0, v=5}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+while (v - 4) (print(v) ; v=v - 1)
+
+Symbol Table: 
+
+{var_f=0, v=4}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_f=0, v=4}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@573f2bb1)}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_f=0, v=4}
+Out: 
+
+[5, 6, 6]
+File Table: 
+
+{}
+Heap: 
+
+{}

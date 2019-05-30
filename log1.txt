@@ -1,0 +1,2125 @@
+ExeStack: 
+
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+(openFile(filename='test.in', varname'var_f') ; (readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))))
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; (IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f)))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ) ; closeFile(var_f))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+closeFile(var_f)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+print(var_c)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+print(0)
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+
+Symbol Table: 
+
+{var_c=0}
+Out: 
+
+[0, 0]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+print(var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+print(var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@e45f292)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@1f36e637)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@1f36e637)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@1f36e637)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@1f36e637)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+openFile(filename='file.txt', varname'var_f')
+
+Symbol Table: 
+
+{}
+Out: 
+
+[]
+File Table: 
+
+{}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(readFile(var_f , var_c) ; (print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) )))
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@1f36e637)}
+Heap: 
+
+{}
+ExeStack: 
+
+openFile(filename='test.in', varname'var_f')
+(print(var_c) ; IF (var_c) THEN ((readFile(var_f , var_c) ; print(var_c)) ) ELSE (print(0) ))
+readFile(var_f , var_c)
+
+Symbol Table: 
+
+{var_f=0}
+Out: 
+
+[]
+File Table: 
+
+{0=(file.txt , java.io.BufferedReader@1f36e637)}
+Heap: 
+
+{}
